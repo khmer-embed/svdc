@@ -1,0 +1,41 @@
+/****************************/
+
+
+/** Imports Plugin css **/
+
+
+/****************************/
+
+
+/* <!-- Icons css --> */
+
+@import url(../assets/css/icons.css);
+
+/* <link href="../assets/css/icons.css" rel="stylesheet"> */
+
+
+/* <!--  bootstrap css--> */
+
+@import url(../assets/plugins/bootstrap/css/bootstrap.min.css);
+
+/* <link id="style" href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" /> */
+
+
+/* <!-- style css --> */
+
+@import url(../assets/css/style.css);
+@import url(../assets/css/style-dark.css);
+@import url(../assets/css/style-transparent.css);
+
+/* <link href="../assets/css/style.css" rel="stylesheet"> */
+
+
+/* <link href="../assets/css/style-dark.css" rel="stylesheet">
+		<link href="../assets/css/style-transparent.css" rel="stylesheet"> */
+
+
+/* <!---Skinmodes css--> */
+
+@import url(../assets/css/skin-modes.css);
+
+/* <link href="../assets/css/skin-modes.css" rel="stylesheet" /> */

@@ -1,0 +1,121 @@
+@supports ((position: -webkit-sticky) or (position: sticky)) {
+    .sticky-top {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+.content-header {
+    background-color: #fff;
+    border-top: 1px solid #ededf5;
+}
+
+.dark-theme .content-header {
+    background-color: #2a2e3f !important;
+    border-color: #404353 !important;
+}
+
+.ct-bar-action {
+    padding: 7px 10px 2px 10px !important;
+    /* padding-bottom: 1px !important; */
+}
+
+.ct-bar-action-shaddow {
+    box-shadow: 0 4px 8px -5px rgb(185 181 181 / 57%);
+    margin-bottom: 10px;
+}
+
+.dark-theme .ct-bar-action-shaddow {
+    box-shadow: 0 0px 0px 0px !important;
+}
+
+.pagination li span {
+    margin-right: 4px;
+    border-radius: 4px;
+}
+
+.z-index-1020 {
+    z-index: 1020 !important;
+}
+
+.z-index-10 {
+    z-index: 10 !important;
+}
+
+.ff_fileupload_dropzone {
+    height: 100px !important;
+}
+
+.hide{
+    display: none !important;
+}
+
+.show{
+    display: block !important;
+}
+
+.page-link{
+    cursor: pointer !important;
+}
+
+.text-md{
+    font-size: 16px;
+}
+
+.SumoSelect>.CaptionCont>span.placeholder {
+    color: #fff !important;
+}
+
+.datetimepicker table td.today {
+    background: #e1e1ef;
+    color: #fff;
+}
+
+.datepicker_timelist{
+    overflow-y: scroll;
+}
+
+#getcategory ul:first-child {
+    padding: 0px;
+}
+
+.form-control {
+    color: #4D587D;
+}
+
+.no-border{
+    border: none !important;
+}
+
+.form-control-feedback {
+    position: absolute;
+    top: .6rem;
+    right: 10px;
+    z-index: 2;
+    display: block;   
+    text-align: center;
+    /* pointer-events: none; */
+}
+
+.togglepassword{
+    cursor: pointer !important;
+}
+
+
+.dropdownlang{
+    margin-top: 0;
+}
+
+.data-item-hover{background-color: red !important;}
+
+@media (max-width: 800px) {
+    .dropdownlang{
+        margin-top: 10px;
+    }
+  }
